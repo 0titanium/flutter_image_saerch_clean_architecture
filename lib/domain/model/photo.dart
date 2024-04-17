@@ -9,7 +9,7 @@ class Photo with _$Photo {
   const factory Photo({
     required int id,
 required String url,
-required String largeImageURL,
+required String largeImageUrl,
     required String tags,
   }) = _Photo;
   
