@@ -8,6 +8,7 @@ extension ToPhoto on Hits {
       url: previewURL ?? '',
       largeImageUrl: largeImageURL ?? '',
       tags: tags ?? '',
+      views: views!.toInt() ?? -1,
     );
   }
 }
